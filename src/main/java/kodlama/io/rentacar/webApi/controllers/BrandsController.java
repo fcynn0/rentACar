@@ -46,4 +46,6 @@ public class BrandsController {
     public void delete(@PathVariable int id){
         this.brandService.delete(id);
     }
+
+
 }
